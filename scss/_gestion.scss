@@ -1,0 +1,136 @@
+.txt__info__administracion{
+    padding: 200px 0px 0px 300px;
+    }
+    .txt__info__titulo{
+        color: $colorMulti;
+        font-family: $fontMulti;
+        font-weight: 700;
+        text-align: left;
+        text-decoration: none;
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .txt__info__descripcion{
+        color: $colorMulti;
+        font-family: $fontMulti;
+        font-weight: 500;
+        text-align: left;
+        text-decoration: none;
+        font-size: 20px;
+        list-style: none;
+        margin-bottom: 90px;
+    }
+    .linea__info__gestion{
+        background-color: $colorMulti;
+        height: 440px;
+        width: 5px;
+        position: absolute;
+        margin-left: -20px;
+    }
+    .fondo__gestion{
+        position: absolute;
+        z-index: 0;
+        top: 120px;
+        background-image: url(../assets/img/gestion_desktop.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 900px;
+        width: 100%;
+    }
+    .footer__propiedades__gestion{
+        position: relative;
+        bottom: -190px;
+    }
+    .boton__contactanos__gestion{
+        z-index: 1;
+        color: white;
+        background-color: $colorMulti;
+        font-family: $fontMulti;
+        font-weight: 500;
+        text-decoration: none;
+        font-size: 30px;
+        padding: 10px 30px 10px 30px;
+        margin: 0px 100px 0px 0px;
+        transition: all .2s ease-in-out;
+        letter-spacing: 2px;
+    }
+    .boton__contactanos__gestion:hover{
+        color: white;
+        text-decoration: none;
+        transform: scale(1.1); 
+    }
+    .icon__gestion{
+        position:absolute;
+        margin-left: -300px;
+    }
+    .img__gestion{
+        display: none
+    }
+    @media (max-width: 767px) {
+        .img__gestion{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            text-align: center;
+            padding-bottom: 10px;
+            margin: 0;
+        }
+    .linea__info__gestion{
+        display: none;
+        }
+    .footer__propiedades__gestion{
+        position: relative;
+        bottom: -120px;
+    }
+    .txt__info__titulo{
+        color: $colorMulti;
+        font-family: $fontMulti;
+        font-weight: 700;
+        text-align: center;
+        text-decoration: none;
+        font-size: 40px;
+        line-height: 50px;
+        }
+    .txt__info__descripcion{
+        color: $colorMulti;
+        font-family: $fontMulti;
+        font-weight: 500;
+        text-align: center;
+        text-decoration: none;
+        font-size: 18px;
+        list-style: none;
+        }
+    .txt__info__administracion{
+        padding: 170px 0px 0px 0px;
+        }
+    .fondo__gestion{
+    display: none;
+        }
+    .boton__contactanos__gestion{
+        color: white;
+        background-color: $colorMulti;
+        font-family: $fontMulti;
+        font-weight: 500;
+        text-decoration: none;
+        font-size: 30px;
+        padding: 10px 20px 10px 20px;
+        margin: 0px 0px 0px 0px;
+        transition: all .2s ease-in-out;
+        letter-spacing: 2px;
+        }
+        .boton__contactanos__gestion:hover{
+            color: white;
+            text-decoration: none;
+            transform: scale(1.1); 
+        }
+    .icon__gestion{
+        display: none;
+    }
+    .icon__gestion__mobile{
+        position: relative;
+        display: all;
+    }
+    }

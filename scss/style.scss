@@ -1,0 +1,14 @@
+@import "navbar";
+@import "infoIndex";
+@import "footer";
+@import "administracion";
+@import "gestion";
+@import "seguros";
+@import "contacto";
+
+.container-fluid{
+    padding: 0 !important;
+}
+.row{
+    margin: 0 !important;
+}

@@ -1,0 +1,186 @@
+$colorMulti: #0195C9;
+$fontMulti: 'Montserrat', sans-serif;
+
+.navbar{
+    border-bottom: $colorMulti 6px solid;
+    padding: 20px 20px 20px 10px !important;
+    background-color: white;
+}
+.nav-item{
+   padding: 10px 10px 10px 10px;
+}
+.nav-link{
+    color: $colorMulti;
+    font-family: $fontMulti;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 22px;
+    transition: all .2s ease-in-out;
+    padding: 0px 0px 0px 0px;
+}
+.nav-link:hover{
+    color: $colorMulti;
+    transform: scale(1.05);
+    transition: .5s;
+}
+.navbar__dropdownitem{
+    display: block;
+    color: grey;
+    font-family: $fontMulti;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 10px 20px 10px 20px;
+}
+.navbar__dropdownitem:hover {
+    display: block;
+    color: $colorMulti;
+    text-decoration: none;
+    padding: 0px 0px 0px 0px;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+    border-radius: 0%;
+ }
+
+/*ContactoNav*/
+.navbar__contacto{
+    color: $colorMulti;
+    font-family: $fontMulti;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    margin: 0px 0px 0px 0px;
+    background-color: white;
+    border: 2px solid $colorMulti;
+    transition: all .2s ease-in-out;
+}
+.navbar__contacto:hover{
+    background-color: $colorMulti;
+    color: white;
+    border: 2px solid $colorMulti;
+    text-decoration: none;
+}
+li.nav-item{
+    list-style: none;
+    text-align: right;
+    padding-right: 30px;
+}
+.navbar__logo{
+    padding: 5px 0px 5px 30px;
+    margin: 10px 0px 10px 0px;
+ }
+
+/*Media Querie Mobile*/
+
+@media (max-width: 767px){
+
+.nav-link{
+        text-align: right;
+        color: $colorMulti;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        text-decoration: none;
+        font-size: 22px;
+        transition: all .2s ease-in-out;
+        margin: 0px 20px 0px 0px;
+    }
+    .nav-link:hover{
+        color: $colorMulti;
+        transform: scale(1);
+        transition: .5s;
+    }
+    .navbar__contacto{
+        color: $colorMulti;
+        font-family: $fontMulti;
+        font-weight: 400;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 10px 20px 10px 20px;
+        margin: 0px 0px 0px 0px;
+        background-color: white;
+        border: 0px solid $colorMulti;
+        transition: all .2s ease-in-out;
+ }
+    .navbar__contacto:hover{
+        color: $colorMulti;
+    background-color: white;
+    border: 0px solid $colorMulti;
+    text-decoration: none;
+}
+    .quienesSomosh2{
+        color: $colorMulti;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        text-align: center;
+        text-decoration: none;
+        font-size: 250%;
+    }
+    .navbar{
+        border-bottom: $colorMulti 6px solid;
+        padding: 20px 30px 19px 30px;
+        
+    }
+    .navbar .nav-item .dropdown-menu{ 
+        display: none;
+        border-radius: 0;
+        border-style: none;
+        text-align: right;
+    }
+    .navbar .nav-item .nav-link{ }
+        .navbar .nav-item .dropdown-menu{ display: block;
+        text-align: right; }
+        .navbar .nav-item .dropdown-menu{ margin-top:0;
+        text-align: right; 
+    }
+    .dropdown-item{
+        text-align: right;
+        color: grey;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 0;
+    }
+    li.nav-item{
+        padding: 0;
+    }
+    .navbar__logo{
+       padding-left: 20px;
+    }
+    .navbar-toggler{
+        margin-right: 20px;
+    }
+    .navbar__logo{
+        padding: 5px 0px 5px 30px;
+        margin: 10px 0px 10px 0px;
+     }
+}
+
+/*Media Querie Desktop*/
+@media (min-width: 768px){
+    .navbar .nav-item .dropdown-menu{ 
+        display: none;
+        border-radius: 0;
+        box-shadow: 11px 12px 10px -7px rgba(0,0,0,0.4);
+        -webkit-box-shadow: 11px 12px 10px -7px rgba(0,0,0,0.4);
+        -moz-box-shadow: 11px 12px 10px -7px rgba(0,0,0,0.4);
+        border-style: none;
+        background-color: white;
+        
+    }
+        .navbar .nav-item:hover .nav-link{   }
+        .navbar .nav-item:hover .dropdown-menu{ display: block;
+        background-color: white; }
+        .dropdown-item:hover{
+            background-color: white
+        }
+        .navbar .nav-item .dropdown-menu{ margin-top:0;
+        background-color: white; }
+        
+    
+    .dropdown-item{
+        background-color: white;
+    }
+    }

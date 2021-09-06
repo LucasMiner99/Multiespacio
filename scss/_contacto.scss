@@ -1,0 +1,109 @@
+$txtEstilos: (
+    color: $colorMulti,
+    tFuente: 18px,
+);
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+   transition: all .6s;
+}
+.float:hover{
+    color: white;
+    transform: scale(1.2);
+}
+.my-float{
+	margin-top:16px;
+}
+
+.form__multiespacio{
+    background-color: $colorMulti;
+    margin: 200px 400px 200px 400px;
+}
+.form__inputclass{
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    font-size:map-get($txtEstilos, tFuente);
+    box-sizing: border-box;
+    border: 2px solid $colorMulti;
+    border-radius: 0px;
+    font-family: $fontMulti;
+    color: $colorMulti;
+    resize: vertical;
+}
+.form__inputclass__2{
+    @extend .form__inputclass;
+    height: 300px;
+    resize: none;
+}
+.contenedor__form{
+    padding: 10px 10px 10px 10px;
+    margin-top: 200px;
+    background-color: $colorMulti;
+    text-align: center;
+}
+::placeholder{
+    color: $colorMulti;
+}
+input::-webkit-input-placeholder {
+    font-size: 16px;
+    font-family: $fontMulti;
+    color: $colorMulti;
+}
+input[type=submit]{
+    background-color: white;
+    border: none;
+    color: $colorMulti;
+    padding: 16px 32px 16px 32px;
+    text-decoration: none;
+    margin: 4px 0px 10px 0px;
+    cursor: pointer;
+    font-family: $fontMulti;
+    letter-spacing: 2px;
+    font-weight: 600;
+    transition: all .2s ease-in-out;
+  }
+  input[type=submit]:hover{
+    transform: scale(1.05);
+    transition: .5s;
+  }
+.form__input__container{
+    padding: 10px 10px 10px 10px;
+}
+input[type=text]:focus {
+    border: none;
+    outline: none;
+  }
+textarea:focus {
+    border: none;
+    outline: none;
+  }
+.h3__contacto{
+    font-family: $fontMulti;
+    font-size: 24px;
+    color: $colorMulti;
+    text-align: center;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.mapa__container{
+    margin: 200px 0px 100px 0px;
+    text-align: center;
+}
+@media (max-width: 767px) {
+    .mapa__container{
+        margin: 50px 0px 100px 0px;
+        text-align: center;
+    }
+}
