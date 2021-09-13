@@ -863,6 +863,30 @@ li.nav-item {
           transform: scale(1.2);
 }
 
+.float__otro {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 120px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  -webkit-box-shadow: 2px 2px 3px #999;
+          box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+  -webkit-transition: all .6s;
+  transition: all .6s;
+}
+
+.float__otro:hover {
+  color: white;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
 .my-float {
   margin-top: 16px;
 }
