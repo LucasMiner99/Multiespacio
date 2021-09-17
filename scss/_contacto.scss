@@ -121,6 +121,13 @@ textarea:focus {
     margin: 200px 0px 100px 0px;
     text-align: center;
 }
+h2{
+    font-family: $fontMulti;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+}
 @media (max-width: 767px) {
     .mapa__container{
         margin: 50px 0px 100px 0px;
